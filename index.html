@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="/style/main.css" />
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
     <title>Netflix</title>
   </head>
   <body>
@@ -12,29 +18,40 @@
       <div class="container">
         <h2 class="logo">NETFLIX</h2>
         <nav>
-          <a href="#">Início</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
+          <a href="#">Home</a>
+          <a href="#">TV Shows</a>
+          <a href="#">Movies</a>
+          <a href="#">My List</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <div class="filme-principal">
+      <div class="main-movie">
         <div class="container">
-          <h3 class="titulo">THE LAST KINGDOM</h3>
-          <p class="descricao">
-            Enquanto Alfredo, o G rande, defende seu reino de invasões nórdicas,
-            Uhtred - um saxão criado por vikings - planeja reivindicar o que é
-            seu por direito.
+          <h3 class="title">THE LAST KINGDOM</h3>
+          <p class="description">
+            On a quest to reclaim his birthright, Uhtred must tread a dangerous
+            path between both sides to play his part in the birth of a new
+            nation and--ultimately--recapture his ancestral lands.
           </p>
         </div>
-        <div class="botoes">
-          <button role="button" class="botao">ASSISTIR AGORA</button>
-          <button role="button" class="botao">MAIS INFORMAÇÕES</button>
+        <div class="buttons">
+          <button role="button" class="button">
+            <i class="fa-solid fa-play"></i>
+            WATCH NOW
+          </button>
+          <button role="buttons" class="button">
+            <i class="fa-solid fa-circle-info"></i>
+            MORE INFO
+          </button>
         </div>
       </div>
     </main>
+
+    <script
+      src="https://kit.fontawesome.com/38528897a6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
   </body>
 </html>
